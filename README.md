@@ -114,4 +114,4 @@ The rest of the properties in `$scope.gridConfig` directly configure the grid. `
 
 That's it!  Our first DataDicer application.
 
-[heres a change. Still here?]
+[heres a change. Still here? I'm not sure what's going on.]
