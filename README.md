@@ -8,7 +8,7 @@ The overall architecture is a hierarchical model view controller.  The model vie
 
 We'll begin by creating and explaining a simple application that shows a grid view displaying a table of information from a solr back end.   The code for this section can be found at https://stash.ncbi.nlm.nih.gov/projects/NGRAM/repos/datadicerui.boilerplate.app/browse?at=refs%2Fheads%2FminimalConf.
 
-The application consists of two parts, the html, which declares the application UI, and the JavaScript, which wires the grid to the back end and deals with events occurring on the page.
+The application consists of three parts: the Solr backend, the HTML, which declares the application UI, and the JavaScript, which wires the grid to the backend and deals with events occurring on the page.
 
 ***The HTML***
 
@@ -113,3 +113,5 @@ DataDicer has a flexible query architecture that allows you to query multiple ba
 The rest of the properties in `$scope.gridConfig` directly configure the grid. `autoLoad` set to true means to load the grid automatically upon startup.  rownumbers set to true means show row numbers in the grid. `colModel` is an array that contains the per column configuration, one column per array element. In this case we have two columns, with names `Project_Acc` and `Organism_Name`. Each column has a human readable label. You can set the width of the column in pixels, how text is aligned in each table element, and whether the column is sortable.
 
 That's it!  Our first DataDicer application.
+
+[heres a change]
