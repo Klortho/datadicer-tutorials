@@ -23,6 +23,6 @@ npm install -g bower grunt-cli jshint karma-cli
 
 ## singularjs
 
-<div style='background: #EEE; padding: 0.5em; border: 2px solid #833; border-radius: 0.7em; margin: 0.5em 1.5em; font-style: italic; font-size: 90%; color: #833;'>We are working to get this up on GitHub (see WT-690), so you can clone it from anywhere. At the time of this writing [4/23/2016], clone it from Stash, ~maloneyc/singularjs-github.</div>
+<div class='fixme'>We are working to get this up on GitHub (see WT-690), so you can clone it from anywhere. At the time of this writing [4/23/2016], clone it from Stash, ~maloneyc/singularjs-github.</div>
 
 Next, follow the instructions in the README.
