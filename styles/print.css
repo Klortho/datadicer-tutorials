@@ -1,1 +1,4 @@
 /* CSS for print */
+div {
+  background: red;
+}
