@@ -18,7 +18,7 @@ For Linux or Mac, the easiest and best way to get these is to use nvm.
 Next, install these Node.js-based command-line tools:
 
 ```
-npm install -g bower grunt-cli jshint karma-cli
+npm install -g bower grunt-cli jshint karma-cli typings
 ```
 
 ## singularjs
