@@ -10,8 +10,8 @@ We'll start by cloning the lowest-level library, singularjs, and work your way u
 ## Initial setup
 You can do development on any type of platform (Windows, Linux, or Mac). You'll need to have these tools installed on your system:
 
-* Node.js - *[FIXME: what is the minimum required version? We should try to ensure, if possible that everything works with the latest LTS, 4.4.3, and doesn't require any version 5 features.]*
-* npm - *[FIXME: ditto]*
+* Node.js - it is known to work with version 4.4.3 (the latest LTS at the time of this writing); other versions haven't been tested. 
+* npm - works with 3.8.7; other versions haven't been tested.
 
 For Linux or Mac, the easiest and best way to get these is to use nvm.
 
@@ -23,6 +23,8 @@ npm install -g bower grunt-cli jshint karma-cli
 
 ## singularjs
 
-<div class='fixme'>We are working to get this up on GitHub (see WT-690), so you can clone it from anywhere. At the time of this writing [4/23/2016], clone it from Stash, ~maloneyc/singularjs-github.</div>
+<div style='background: #EEE; padding: 0.5em; border: 2px solid #833; border-radius: 0.7em; margin: 0.5em 1.5em; font-style: italic; font-size: 90%; color: #833;'>FIXME: We are working to get this up on GitHub (see WT-690), so you can clone it from anywhere. At the time of this writing [4/23/2016], clone it from Stash, ~maloneyc/singularjs-github.</div>
 
 Next, follow the instructions in the README.
+
+
